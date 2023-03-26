@@ -104,7 +104,7 @@
 
 .fad .centered{
     position: relative;
-   background: url(/carousel-1.jpg);
+   background: url(carousel-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -114,7 +114,7 @@
 }
 .sad .centered{
     position: relative;
-   background: url(/carousel-2.jpg);
+   background: url(carousel-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -125,7 +125,7 @@
 }
 .tad .centered{
     position: relative;
-   background: url(/carousel-3.jpg);
+   background: url(carousel-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
