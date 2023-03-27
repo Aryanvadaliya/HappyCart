@@ -5,20 +5,20 @@
 .container{
     background-color: rgb(240, 240, 240);
 }
-.fnavbar{
-    display: flex;
-    background-color: rgb(240, 240, 240);
-    height: auto;
-    width: auto;
-    justify-content: center;
 
-}
-.fnavbar .item{
-    display: inline-flex;
+.item{
+   
     margin: 10px;
-    background-color: white;
-    padding: 5px;
-
+    background-color: orangered;
+    padding: 11px;
+    border-radius: 10px;
+    border: none;
+}
+.item a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
 }
 
 .combine-navbar{
@@ -33,6 +33,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .snavbar .logo:hover{
@@ -42,7 +43,7 @@
 }
 
 .snavbar .logo{
-    margin: 20px;
+    margin: 10px;
     font-size: 19pt;
     font-weight: 900;
     letter-spacing: 1px;
@@ -50,7 +51,8 @@
 }
 .snavbar .search input{
     width: 30vw;
-    height: 20px;
+    height: 25px;
+    border-radius: 5px;
 }
 .snavbar .care{
     color: black;
@@ -104,7 +106,7 @@
 
 .fad .centered{
     position: relative;
-   background: url(carousel-1.jpg);
+   background: url(/carousel-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -114,7 +116,7 @@
 }
 .sad .centered{
     position: relative;
-   background: url(carousel-2.jpg);
+   background: url(/carousel-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -125,7 +127,7 @@
 }
 .tad .centered{
     position: relative;
-   background: url(carousel-3.jpg);
+   background: url(/carousel-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;

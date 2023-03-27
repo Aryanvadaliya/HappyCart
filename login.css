@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(224, 219, 219);
+}
+.logo{
+    font-size: 28pt;
+    font-weight: 900;
+    color: orangered;
+}
+.box{
+
+    
+    justify-content: center;
+    display: grid;
+}
+
+.login{
+    color: orangered;
+}
+.logo a{
+    text-decoration: none;
+    color: orangered;
+}
+#input1{
+    display: block;
+    border-radius: 6px;
+    margin: 10px 0;
+    height: 12px;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+#input2{
+    display: block;
+    border-radius: 6px;
+    height: 12px;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+.fp{
+    color: orangered;
+    font-size: smaller;
+    font-weight: 700;
+    margin: 0 0 0 auto;
+    cursor: pointer;    
+}
+button{
+    width: 190px;
+    padding: 5px;
+    background-color: orangered;
+    margin: 12px 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.signup a{
+    
+   color: orangered;
+}
+.signup{
+    margin: 7px auto;
+}

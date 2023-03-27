@@ -4,52 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-<style>
-    body{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
-    .box{
-        border-radius: 10px;
-        border: 1px solid black;
-        padding: 16px;
-        box-shadow: 0 0 4px 4px rgba(0, 0, 0,0.2);
-    }
-    input{
-        display: block;
-        border-radius: 6px;
-        margin: 15px 0;
-        height: 12px;
-        padding: 10px;
-        border: 1px solid black;
-        
-        
-    }
-    button{
-        width: 190px;
-        padding: 5px;
-        background-color: black;
-        border-radius: inherit;
-        color: white;
-        cursor: pointer;
-    }
-    a{
-        text-decoration: none;
-        color: white;
-    }
-</style>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 
 </head>
 <body>
     <div class="box">
-        <h1>Login</h1>
+        <p class="logo"><a href="index.html"> HappyCart</a></p>
+        <h2 class="login">Login</h2>
         <input id="input1" type="text" placeholder="Username" onmouseenter="">
-        <input id="input2" type="password" placeholder="password">
-        <button id="btn"><a href="index2.html">Enter</a></button>
+        <input id="input2" type="password" placeholder="Password">
+        <p class="fp">Forgot password??</p>
+        <button id="btn"><a href="index.html">Submit</a></button>
+        <p class="signup"> New user? <a href="signup.html">Signup Here</a> </p>
     </div>
 </body>
 <script src="js.js"></script>
