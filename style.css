@@ -106,7 +106,7 @@
 
 .fad .centered{
     position: relative;
-   background: url(/carousel-1.jpg);
+   background: url(carousel-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -116,7 +116,7 @@
 }
 .sad .centered{
     position: relative;
-   background: url(/carousel-2.jpg);
+   background: url(carousel-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -127,7 +127,7 @@
 }
 .tad .centered{
     position: relative;
-   background: url(/carousel-3.jpg);
+   background: url(carousel-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -238,32 +238,3 @@ footer{
 .footer-item a:hover{
     color: orangered;
 }
-/*
-
-.address{
-    margin: 10px 20px;
-}
-
-.quickshop{
-    display: block;
-    margin: 10px 20px;
-}
-
-.myaccount{
-    margin: 10px 20px;
-}
-
-.newsletter{
-    margin: 10px 20px;
-}
-
-.quickshop a{
-    display: block;
-    color: white;
-    margin: 6px 0px;
-}
-.myaccount a{
-    display: block;
-    color: white;
-    margin: 6px 0px;
-} */
