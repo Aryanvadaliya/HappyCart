@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HappyCart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
 
         
@@ -18,72 +23,78 @@
 
        <!------------ comnine navbar for sticky position ------------>
 
-       <div class="combine-navbar">
-            <div class="snavbar">
-                <div class="logo"><img src="images/logo.png" alt=""></div>
-                <div class="search">
-                    <input type="text" placeholder="  Search Items Here" >
+      
+    
+        <header class="p-3 text-bg-dark sticky-top">
+            <div class="container">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                  <img src="images/logo.png" width="150px" alt="">
+                </a>
+        
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                  <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                  <li><a href="#ctgr" class="nav-link px-2 text-white">Cetegories</a></li>
+                  <li><a href="#prducts" class="nav-link px-2 text-white">Shop</a></li>
+                  <li><a href="#footer" class="nav-link px-2 text-white">Contact</a></li>
+                  <li><a href="#footer" class="nav-link px-2 text-white">Quick links</a></li>
+                </ul>
+        
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                  <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                </form>
+        
+                <div class="text-end">
+                  <button type="button" class="btn btn-outline-light me-2">Login</button>
+                  <button type="button" class="btn" style="background-color: orangered; color: white;">Sign-up</button>
                 </div>
-                    <button class="item"><a href="login.html">Sign in</a></button>
-                </div>
-                
+              </div>
             </div>
-        </div>
+          </header>
+        
 
-        <!-------------- Third navbar ---------------->
 
-        <div class="topnav" id="myTopnav">
-              <a href="#home" class="active">Home</a>
-              <a href="#ctgr">Shop</a>
-              <a href="#">Shop Details</a>
-              <a href="#">Pages</a>
-              <a href="#footer">Contact</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-       </div>
-     
 
 
 
 
         <!-------------- First AD ---------------->
 
-        <div class="ads">
-            <div class="ad">
-                <a href="#ctgr">
-                    <img src="images/m3.jpg" alt="">
+        
+
+
+        <div class="ads my-2">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="images/m3.jpg" class="d-block w-100" alt="...">
                     <div class="center">
                         <h1>
                             MEN FASHION
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                </a>
-            </div>
-            <div class="ad">
-                <a href="#ctgr">
-                    <img src="images/w2.jpg" alt="">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/w2.jpg" class="d-block w-100" alt="...">
                     <div class="center">
                         <h1>
                             WOMEN FASHION
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                </a>
-            </div>
-            <div class="ad">
-                <a href="#ctgr">
-                    <img src="images/c1.jpg" alt="">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/c1.jpg" class="d-block w-100" alt="...">
                     <div class="center">
                         <h1>
                             CHILDREN FASHION
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                </a>
-            </div>
+                  </div>
+                </div>
+              </div>
         </div>
 
         <!-------------- features of HappyCart ---------------->
@@ -97,8 +108,8 @@
 
         <!-------------- different Cetegories ---------------->
 
+        <h1>CETEGORIES</h1>
         <div id="ctgr">
-            <h1>CETEGORIES</h1>
             <div class="pr-ctgr">
                 <div class="ctgr-card">
                     <img src="images/cat-1.jpg" alt="">
@@ -201,9 +212,13 @@
                 </div>
             </div>
         </div>
+
+        
+
+
         <!-------------- All products listing ---------------->
         <h1 class="fp">featured Products</h1>
-        <div class="products">
+        <div class="products" id="products">
             <div class="prd-card">
                 <img src="images/product-1.jpg" alt="">
                 <p>Product Name Goes Here</p>
@@ -318,5 +333,35 @@
     
     
     <script src="js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
