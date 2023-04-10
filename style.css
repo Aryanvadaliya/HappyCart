@@ -20,17 +20,8 @@
 .ad img{
     width: 30vw;
 }
-/* .ads{
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-  
-} */
 .ads img{
-    height: 60vh;
+    height: 70vh;
 }
 
 .center{
@@ -70,11 +61,11 @@
 .pr-ctgr{
     display: flex;
     flex-wrap: wrap;
-    margin: 1em;
+    
     justify-content: start;
 }
 .ctgr-card{
-    margin: 4% 4%;
+    margin: 2% 3%;
 }
 .ctgr-card img{
     width: 112px;
@@ -124,4 +115,11 @@ footer{
 }
 .footer-item a:hover{
     color: orangered;
+}
+
+.hover-black:hover{
+    color: black;
+}
+.hover-black{
+    color: white;
 }
